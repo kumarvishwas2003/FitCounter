@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 const Welcome = () => {
   return (
     <>
@@ -16,17 +17,21 @@ const Welcome = () => {
             </p>
           </div>
           <div className="nav-btn flex justify-evenly p-3">
-            <button className="p-2 bg-purple-700 rounded-md font-bold">
-              Get Started
-            </button>
-            <button className="p-2 bg-purple-600 rounded-md font-bold">
-              How to Use ?
-            </button>
+            <Link to="/ModeSelect">
+              <button className="p-2 bg-purple-700 rounded-md font-bold">
+                Get Started
+              </button>
+            </Link>
+            <Link to="/Howtouse">
+              <button className="p-2 bg-purple-600 rounded-md font-bold">
+                How to Use ?
+              </button>
+            </Link>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default Welcome
+export default Welcome;
