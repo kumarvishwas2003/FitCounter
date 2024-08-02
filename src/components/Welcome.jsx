@@ -3,31 +3,32 @@ import { Link } from "react-router-dom";
 const Welcome = () => {
   return (
     <>
-      <div className="wholebody h-screen w-screen flex justify-center items-center bg-zinc-950 text-white font-roboto p-4">
-        <div className="main-container w-96 h-96 flex flex-col justify-between mb-24">
-          <div className="logo-div flex justify-center items-center ">
-            <img src="./public/images/logo.png" alt="" className="w-28 h-28" />
-          </div>
-          <div className="text-container">
-            <p className="text-6xl font-semibold p-2 font-roboto">
-              Hello,
-              <br />
-              Welcome To <br />
-              <span className="font-extrabold text-purple-700">FitCounter</span>
-            </p>
-          </div>
-          <div className="nav-btn flex justify-evenly p-3">
-            <Link to="/ModeSelect">
-              <button className="p-2 bg-purple-700 rounded-md font-bold">
-                Get Started
-              </button>
-            </Link>
-            <Link to="/Howtouse">
-              <button className="p-2 bg-purple-600 rounded-md font-bold">
-                How to Use ?
-              </button>
-            </Link>
-          </div>
+      <div className="w-screen h-screen">
+        <div className="">
+          <img
+            src="./public/images/body-builder.jpg"
+            alt=""
+            className="bg-contain rounded-b-[38px]"
+          />
+        </div>
+        <div className="text-container w-full text-[48px] text-center font-black">
+          <p>
+            Hello,
+            <br /> Welcome To <br />
+            <span className="text-[#FF8225]">Fit-Counter</span>
+          </p>
+        </div>
+        <div className="btn-container flex justify-evenly mt-5">
+          <Link to="/ModeSelect">
+            <button className="p-3 bg-[#173B45] rounded-md font-bold text-[19px] text-white">
+              Get Started
+            </button>
+          </Link>
+          <Link to="/Howtouse">
+            <button className="p-3 bg-[#173B45] rounded-md font-bold text-[19px] text-white">
+              How to Use ?
+            </button>
+          </Link>
         </div>
       </div>
     </>
@@ -35,3 +36,15 @@ const Welcome = () => {
 };
 
 export default Welcome;
+
+
+{/* <Link to="/ModeSelect">
+              <button className="p-2 bg-[#686D76] rounded-md font-bold hover:bg-[#DC5F00]">
+                Get Started
+              </button>
+            </Link>
+            <Link to="/Howtouse">
+              <button className="p-2 bg-[#686D76] rounded-md font-bold hover:bg-[#DC5F00]">
+                How to Use ?
+              </button>
+            </Link> */}
