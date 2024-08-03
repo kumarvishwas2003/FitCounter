@@ -1,30 +1,42 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React, { useState } from "react";
+import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
 const ModeSelect = () => {
+  const [exerciseEasy, setExerciseEasy] = useState(24);
+  const [exerciseMedium, setExerciseMedium] = useState(15);
+  const [exerciseHard, setExerciseHard] = useState(5);
+
   return (
     <>
-      <div className="main bg-[#373A40] w-full h-screen">
-        <Navbar
-          left={"Back"}
-          center={"Choose your level"}
-          right={"How to use"}
-        />
-        <div className="mode-container mt-7 ml-9 grid grid-rows-1 gap-4">
-          <div className="easy w-28 h-28 bg-green-600 flex justify-center items-center rounded-md text-white">
-            <img src="" alt="" />
-            Easy
-          </div>
-          <div className="easy w-48 h-28 bg-yellow-600 flex justify-center items-center rounded-md text-white">
-            Medium
-          </div>
-          <div className="easy w-64 h-28 bg-red-700 flex justify-center items-center rounded-md text-white">
-            Hard
-          </div>
+      <div className="main bg-white w-full h-screen">
+        <Navbar center={"Choose your level"} />
+
+        <div className="mode-container px-8">
+          <Link to="/Easy-Mode">
+            <div className="easy bg-[#00FF38]/35 h-28  backdrop-blur-lg mt-5 rounded-lg font-medium text-xl flex flex-col justify-end pb-3 pl-3 shadow-lg">
+              <div>Easy</div>
+              <div className="text-sm">{`${exerciseEasy} Exercises`}</div>
+            </div>
+          </Link>
+
+          <Link to="/Medium-Mode">
+            <div className="medium bg-[#FAFF00]/35 h-28  backdrop-blur-lg mt-5 rounded-lg font-medium text-xl flex flex-col justify-end pb-3 pl-3 shadow-lg">
+              <div>Medium</div>
+              <div className="text-sm">{`${exerciseMedium} Exercises`}</div>
+            </div>
+          </Link>
+
+          <Link to="/Hard-Mode">
+            <div className="hard bg-[#FF0000]/35 h-28  backdrop-blur-lg mt-5 rounded-lg font-medium text-xl flex flex-col justify-end pb-3 pl-3 shadow-lg">
+              <div>Hard</div>
+              <div className="text-sm">{`${exerciseHard} Exercises`}</div>
+            </div>
+          </Link>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default ModeSelect
+export default ModeSelect;

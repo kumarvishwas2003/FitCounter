@@ -1,17 +1,28 @@
 import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faQuestion } from "@fortawesome/free-solid-svg-icons";
+
+
 import { Link } from 'react-router-dom';
-const Navbar = ({left,center,right}) => {
+const Navbar = ({center}) => {
   return (
-    <div className="top-0 bg-[#373A40] text-white w-full h-10 flex justify-between items-center">
-      <div className="leftbtn p-2 font-semibold bg-[#686D76] ml-2 mt-2 rounded-md">
-        <Link to={"/"}>{left}</Link>
+    <div className="top-0 bg-[#F8EDED] text-black w-full h-16 flex justify-between items-center text-2xl font-bold">
+      <div className="leftbtn ml-4">
+        <Link to={"/"}>
+          <FontAwesomeIcon icon={faArrowLeft} className="text-3xl" />
+        </Link>
       </div>
-      <div className="font-bold mt-2">{center}</div>
-      <div className="rightbtn p-2 font-semibold bg-[#686D76] mr-2 mt-2 rounded-md">
-        <Link to={"/Howtouse"}>{right}</Link>
+      <div className="font-bold">{center}</div>
+      <div className="rightbtn mr-5">
+        <Link to={"/Howtouse"}>
+          <FontAwesomeIcon icon={faQuestion} className="text-3xl font-extrabold" />
+        </Link>
       </div>
     </div>
   );
 }
 
 export default Navbar
+
+//  

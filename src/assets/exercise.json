@@ -1,0 +1,277 @@
+{
+  "Easy": [
+    {
+      "id": 1,
+      "name": "Walking",
+      "level": "Easy",
+      "Equipment": "None",
+      "Good for": "Cardio, Weight Loss",
+      "Calorie burnt in 1 min": "4",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 2,
+      "name": "Stretching",
+      "level": "Easy",
+      "Equipment": "None",
+      "Good for": "Flexibility, Relaxation",
+      "Calorie burnt in 1 min": "2",
+      "Recommended Time": "10 minutes"
+    },
+    {
+      "id": 3,
+      "name": "Yoga",
+      "level": "Easy",
+      "Equipment": "Mat",
+      "Good for": "Flexibility, Balance",
+      "Calorie burnt in 1 min": "3",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 4,
+      "name": "Swimming (light)",
+      "level": "Easy",
+      "Equipment": "Pool",
+      "Good for": "Cardio, Full Body",
+      "Calorie burnt in 1 min": "6",
+      "Recommended Time": "20 minutes"
+    },
+    {
+      "id": 5,
+      "name": "Dancing (slow)",
+      "level": "Easy",
+      "Equipment": "None",
+      "Good for": "Cardio, Coordination",
+      "Calorie burnt in 1 min": "5",
+      "Recommended Time": "20 minutes"
+    },
+    {
+      "id": 6,
+      "name": "Tai Chi",
+      "level": "Easy",
+      "Equipment": "None",
+      "Good for": "Balance, Flexibility",
+      "Calorie burnt in 1 min": "3",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 7,
+      "name": "Housework",
+      "level": "Easy",
+      "Equipment": "None",
+      "Good for": "General Fitness",
+      "Calorie burnt in 1 min": "4",
+      "Recommended Time": "60 minutes"
+    },
+    {
+      "id": 8,
+      "name": "Light Gardening",
+      "level": "Easy",
+      "Equipment": "None",
+      "Good for": "Flexibility, Low-impact Cardio",
+      "Calorie burnt in 1 min": "3",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 9,
+      "name": "Chair Exercises",
+      "level": "Easy",
+      "Equipment": "Chair",
+      "Good for": "Mobility, Flexibility",
+      "Calorie burnt in 1 min": "2",
+      "Recommended Time": "15 minutes"
+    },
+    {
+      "id": 10,
+      "name": "Slow Cycling",
+      "level": "Easy",
+      "Equipment": "Bicycle",
+      "Good for": "Cardio, Leg Strength",
+      "Calorie burnt in 1 min": "4",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 11,
+      "name": "Water Aerobics",
+      "level": "Easy",
+      "Equipment": "Pool",
+      "Good for": "Cardio, Low-impact",
+      "Calorie burnt in 1 min": "5",
+      "Recommended Time": "30 minutes"
+    }
+  ],
+  "Medium": [
+    {
+      "id": 12,
+      "name": "Running",
+      "level": "Medium",
+      "Equipment": "None",
+      "Good for": "Cardio, Stamina",
+      "Calorie burnt in 1 min": "10",
+      "Recommended Time": "20 minutes"
+    },
+    {
+      "id": 13,
+      "name": "Cycling",
+      "level": "Medium",
+      "Equipment": "Bicycle",
+      "Good for": "Cardio, Leg Strength",
+      "Calorie burnt in 1 min": "8",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 14,
+      "name": "Swimming",
+      "level": "Medium",
+      "Equipment": "Pool",
+      "Good for": "Cardio, Full Body",
+      "Calorie burnt in 1 min": "10",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 15,
+      "name": "Jump Rope",
+      "level": "Medium",
+      "Equipment": "Jump Rope",
+      "Good for": "Cardio, Coordination",
+      "Calorie burnt in 1 min": "12",
+      "Recommended Time": "15 minutes"
+    },
+    {
+      "id": 16,
+      "name": "Rowing",
+      "level": "Medium",
+      "Equipment": "Rowing Machine",
+      "Good for": "Cardio, Upper Body",
+      "Calorie burnt in 1 min": "10",
+      "Recommended Time": "20 minutes"
+    },
+    {
+      "id": 17,
+      "name": "Elliptical Trainer",
+      "level": "Medium",
+      "Equipment": "Elliptical Machine",
+      "Good for": "Cardio, Low-impact",
+      "Calorie burnt in 1 min": "8",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 18,
+      "name": "Dancing",
+      "level": "Medium",
+      "Equipment": "None",
+      "Good for": "Cardio, Coordination",
+      "Calorie burnt in 1 min": "7",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 19,
+      "name": "Hiking",
+      "level": "Medium",
+      "Equipment": "None",
+      "Good for": "Cardio, Leg Strength",
+      "Calorie burnt in 1 min": "7",
+      "Recommended Time": "60 minutes"
+    },
+    {
+      "id": 20,
+      "name": "Step Aerobics",
+      "level": "Medium",
+      "Equipment": "Step Platform",
+      "Good for": "Cardio, Leg Strength",
+      "Calorie burnt in 1 min": "9",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 21,
+      "name": "Moderate Weightlifting",
+      "level": "Medium",
+      "Equipment": "Weights",
+      "Good for": "Strength, Muscle Building",
+      "Calorie burnt in 1 min": "6",
+      "Recommended Time": "45 minutes"
+    },
+    {
+      "id": 22,
+      "name": "Kickboxing",
+      "level": "Medium",
+      "Equipment": "None",
+      "Good for": "Cardio, Strength",
+      "Calorie burnt in 1 min": "11",
+      "Recommended Time": "30 minutes"
+    }
+  ],
+  "Hard": [
+    {
+      "id": 23,
+      "name": "HIIT",
+      "level": "Hard",
+      "Equipment": "None",
+      "Good for": "Cardio, Strength",
+      "Calorie burnt in 1 min": "15",
+      "Recommended Time": "15 minutes"
+    },
+    {
+      "id": 24,
+      "name": "Weight Lifting",
+      "level": "Hard",
+      "Equipment": "Weights",
+      "Good for": "Strength, Muscle Building",
+      "Calorie burnt in 1 min": "12",
+      "Recommended Time": "45 minutes"
+    },
+    {
+      "id": 25,
+      "name": "Sprint Intervals",
+      "level": "Hard",
+      "Equipment": "None",
+      "Good for": "Cardio, Speed",
+      "Calorie burnt in 1 min": "15",
+      "Recommended Time": "20 minutes"
+    },
+    {
+      "id": 26,
+      "name": "CrossFit",
+      "level": "Hard",
+      "Equipment": "Varies",
+      "Good for": "Strength, Cardio",
+      "Calorie burnt in 1 min": "13",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 27,
+      "name": "Boxing",
+      "level": "Hard",
+      "Equipment": "Boxing Gloves, Bag",
+      "Good for": "Cardio, Strength",
+      "Calorie burnt in 1 min": "14",
+      "Recommended Time": "30 minutes"
+    },
+    {
+      "id": 28,
+      "name": "Rock Climbing",
+      "level": "Hard",
+      "Equipment": "Climbing Gear",
+      "Good for": "Strength, Endurance",
+      "Calorie burnt in 1 min": "12",
+      "Recommended Time": "60 minutes"
+    },
+    {
+      "id": 29,
+      "name": "Burpees",
+      "level": "Hard",
+      "Equipment": "None",
+      "Good for": "Cardio, Strength",
+      "Calorie burnt in 1 min": "14",
+      "Recommended Time": "10 minutes"
+    },
+    {
+      "id": 30,
+      "name": "Mountain Biking",
+      "level": "Hard",
+      "Equipment": "Mountain Bike",
+      "Good for": "Cardio, Leg Strength",
+      "Calorie burnt in 1": "10 minutes"
+    }
+    ]
+  }
