@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuestion } from "@fortawesome/free-solid-svg-icons";
+
 
 const ModeSelect = () => {
   const [exerciseEasy, setExerciseEasy] = useState(24);
@@ -10,7 +13,10 @@ const ModeSelect = () => {
   return (
     <>
       <div className="main bg-white w-full h-screen">
-        <Navbar center={"Choose your level"} />
+        <Navbar
+          center={"Choose your level"}
+          right={<FontAwesomeIcon icon={faQuestion} />}
+        />
 
         <div className="mode-container px-8">
           <Link to="/Easy-Mode">

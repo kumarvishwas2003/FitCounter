@@ -1,14 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
+import ExerciseCard from './ExerciseCard'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilter } from "@fortawesome/free-solid-svg-icons";
+
 
 const EasyMode = () => {
+  const [data,setData] = useState("hello")
+  useEffect(() => {
+    fetch('/exercise.json')
+      .then(response => response.json())
+    .then(data=>setData(data))
+  },[])
   return (
-      <div className="main bg-white w-full h-screen">
-          <Navbar center={"Choose your Exercises"} />
-          
+    <div className="main bg-white w-full h-screen">
+      <Navbar
+        center={"Choose your Exercises"}
+        right={<FontAwesomeIcon icon={faFilter} />}
+      />
+      <div className="exercise-container pt-4 px-8 flex justify-evenly gap-10">
+        <ExerciseCard />
+        {/* <ExerciseCard /> */}
+        {console.log(data)}
       </div>
-      
-  )
+    </div>
+  );
 }
 
 export default EasyMode

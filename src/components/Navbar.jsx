@@ -5,7 +5,7 @@ import { faQuestion } from "@fortawesome/free-solid-svg-icons";
 
 
 import { Link } from 'react-router-dom';
-const Navbar = ({center}) => {
+const Navbar = ({center,right}) => {
   return (
     <div className="top-0 bg-[#F8EDED] text-black w-full h-16 flex justify-between items-center text-2xl font-bold">
       <div className="leftbtn ml-4">
@@ -16,7 +16,9 @@ const Navbar = ({center}) => {
       <div className="font-bold">{center}</div>
       <div className="rightbtn mr-5">
         <Link to={"/Howtouse"}>
-          <FontAwesomeIcon icon={faQuestion} className="text-3xl font-extrabold" />
+          <div className="text-3xl font-extrabold">
+            {right}
+          </div>
         </Link>
       </div>
     </div>

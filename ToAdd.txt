@@ -1,3 +1,6 @@
 1)Animations (on front page)
 2)add hover 
-3)add filter accoding to equipments on exercise selection
+3)
+    Filters
+        add filter accoding to equipments on exercise selection (equipment & no equipment) 
+        Exercise on specific body parts
