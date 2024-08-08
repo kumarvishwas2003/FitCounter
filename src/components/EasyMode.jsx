@@ -6,12 +6,14 @@ import { faFilter } from "@fortawesome/free-solid-svg-icons";
 
 
 const EasyMode = () => {
-  const [data,setData] = useState("hello")
+  const [data, setData] = useState("hello")
+  // const [exerciseNo,setExerciseNo] = useState(0)
   useEffect(() => {
     fetch('/exercise.json')
       .then(response => response.json())
     .then(data=>setData(data))
-  },[])
+  }, [])
+  
   return (
     <div className="main bg-white w-full h-screen">
       <Navbar
@@ -19,6 +21,7 @@ const EasyMode = () => {
         right={<FontAwesomeIcon icon={faFilter} />}
       />
       <div className="exercise-container pt-4 px-8 flex justify-evenly gap-10">
+        
         {/* <ExerciseCard /> */}
         {/* <ExerciseCard /> */}
         {console.log(data)}
