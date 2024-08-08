@@ -19,9 +19,11 @@ const EasyMode = () => {
         right={<FontAwesomeIcon icon={faFilter} />}
       />
       <div className="exercise-container pt-4 px-8 flex justify-evenly gap-10">
-        <ExerciseCard />
+        {/* <ExerciseCard /> */}
         {/* <ExerciseCard /> */}
         {console.log(data)}
+        <div className="text-3xl text-blue-700 font-bold">
+        </div>
       </div>
     </div>
   );
